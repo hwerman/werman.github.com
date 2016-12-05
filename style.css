@@ -1,0 +1,174 @@
+body{
+  background-color: #000000;
+  font-family: 'Raleway dots', cursive;
+}
+
+#main, #main2{
+  display: flex;
+  height: 100vh;
+  width: auto;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#center{
+  height: 50vh;
+  width: 80vw;
+  margin: 10vh 0vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 90vh;
+}
+
+#center img{
+  height: 20vh;
+  width: 20vw;
+  align-self: center;
+  margin-bottom: 24vh;
+}
+
+#white{
+  height: .2px;
+  width: 140px;
+  background-color: white;
+  border: .5px solid white;
+  margin: 10px;
+  animation: spinX 4s steps(60) infinite;
+}
+
+@keyframes spinX{
+  from {
+    transform: rotateX(0deg);
+  } to {
+    transform: rotateY(360deg);
+  }
+}
+
+.submain{
+  display: flex;
+  height: auto;
+  width: auto;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 32px;
+  text-align: center;
+}
+
+.yes{
+  min-height: 20vh;
+  overflow: auto;
+}
+
+#aboutLink, #portLink, #contactLink{
+  color: #fafafa;
+  text-decoration: none;
+  display: block;
+}
+
+#aboutPara, #portfolioPara, #contactPara{
+  display: none;
+}
+
+#gitlink{
+  text-decoration: none;
+  color: #000000;
+}
+
+#contactPara{
+  color: #313131;
+}
+
+#contactPara img{
+  height: 6vh;
+  width: 3.2vw;
+}
+
+#oneA, #twoA{
+  height: 10vh;
+  width: 30vw;
+  border: 2vh solid #000000;
+  background-color: #313131;
+}
+
+#oneB, #twoB{
+  height: 10vh;
+  width: 30vw;
+  border: 2vh solid #000000;
+  background-color: #aaaaaa;
+}
+
+#oneC, #twoC{
+  height: 10vh;
+  width: 30vw;
+  border:2vh solid #000000;
+  background-color: #969696;
+}
+
+#logoBox{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background-color: #fafafa
+}
+
+#logoBox img{
+  height: 6vh;
+  width: 3vw;
+}
+
+.break{
+  height: 4vh;
+  width: 100%;
+}
+
+#projectInfo{
+  height: 45vh;
+  width: auto;
+  margin: 3vh;
+  font-size: 28px;
+  color: #aaaaaa;
+}
+
+#surroundsound, #rats{
+  max-height: 40vh;
+  max-width: 55vw;
+  border: .8vh solid #aaaaaa;
+}
+
+#projectScreenshot{
+  height: 45vh;
+  width: 56vw;
+  margin: 3vh;
+}
+
+#firstBr{
+  height: 64vh;
+}
+
+#secondBr{
+  height: 64vh;
+}
+
+.projects{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+  text-align: left;
+  align-content; left
+}
+
+h6{
+  text-align: left;
+}
