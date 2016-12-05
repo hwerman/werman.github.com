@@ -1,11 +1,13 @@
 body{
-  background-color: #000000;
+  background-image: url('./signature.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Raleway dots', cursive;
 }
 
-#main, #main2{
+#main{
   display: flex;
-  height: 100vh;
+  height: 80vh;
   width: auto;
   align-items: center;
   align-content: center;
@@ -13,26 +15,29 @@ body{
   flex-wrap: nowrap;
 }
 
+/*#main2{
+  margin-top: 120vh;
+}*/
+
 #center{
   height: 50vh;
   width: 80vw;
-  margin: 10vh 0vh;
-  background-color: black;
+  margin: 60vh auto auto auto;
   display: flex;
   flex-direction: column;
   padding-top: 10vh;
   align-items: center;
   text-align: center;
   color: white;
-  margin-bottom: 90vh;
-}
+/*  margin-bottom: 90vh;
+*/}
 
 #center img{
-  height: 20vh;
-  width: 20vw;
+  min-height: 20vh;
+  min-width: 20vw;
   align-self: center;
-  margin-bottom: 24vh;
-}
+/*  margin-bottom: 24vh;
+*/}
 
 #white{
   height: .2px;
@@ -51,7 +56,7 @@ body{
   }
 }
 
-.submain{
+/*.submain{
   display: flex;
   height: auto;
   width: auto;
@@ -61,6 +66,11 @@ body{
   flex-wrap: nowrap;
   font-size: 32px;
   text-align: center;
+}
+
+#apc{
+  margin-top: 90vh;
+  margin-bottom: 100vh;
 }
 
 .yes{
@@ -95,22 +105,27 @@ body{
 #oneA, #twoA{
   height: 10vh;
   width: 30vw;
-  border: 2vh solid #000000;
   background-color: #313131;
 }
 
 #oneB, #twoB{
   height: 10vh;
   width: 30vw;
-  border: 2vh solid #000000;
   background-color: #aaaaaa;
 }
 
 #oneC, #twoC{
   height: 10vh;
   width: 30vw;
-  border:2vh solid #000000;
   background-color: #969696;
+}
+
+#oneA, #oneB, #oneC{
+  border: 2vh solid #000000;
+}
+
+#twoA, #twoB, #twoC{
+  border: 2vh solid #000000;
 }
 
 #logoBox{
@@ -172,3 +187,4 @@ body{
 h6{
   text-align: left;
 }
+*/
