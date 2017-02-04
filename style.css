@@ -1,6 +1,7 @@
 body{
   background-image: url('./signature.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   font-family: 'Raleway dots', cursive;
 }
@@ -65,8 +66,34 @@ body{
 
 h5{
   margin-bottom: 2vh;
+  letter-spacing: 2px;
 }
 
+/*@media screen
+  and (max-width: 700px){
+/*    body{
+      width: 75%;
+      height: 75%;
+    }*/
+/*    body{
+    background-image: url('./signaturesmall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway dots', cursive;
+  }
+
+  #center{
+    color: #000000;
+  }
+  }*/
+/*
+@media screen
+  and (max-width: 699px){
+    #center{
+      color: #000000;
+    }
+}
+*/
 /*
 #center img{
   min-height: 20vh;
