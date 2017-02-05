@@ -70,13 +70,17 @@ h5{
 }
 
 @media screen
-  and (min-width: 315px)
   and (max-width: 736px){
   body{
-    font-family: 'Helvetica', sans serif;
+    font-family: 'Raleway', sans serif;
   }
-
+  h5{
+    font-size: 125%;
+  }
+  #contact img{
+    width: 5vh;
     }
+  }
 
 /*@media screen
   and (max-width: 700px){
